@@ -1,0 +1,21 @@
+page_config:
+  # Appears at the top of browser
+  page_title: "NOVA DSPy RAG Chatbot" 
+  # The page favicon. Besides the types supported by st.image (like URLs or numpy arrays), you can pass in an emoji as a string ("🦈") or a shortcode (":shark:").
+  page_icon: "https://polydelta-assets.s3.amazonaws.com/Favicon+(2).png" 
+  # Options: "expanded" , or "auto"
+  initial_sidebar_state: "collapsed"  
+
+header:
+  # Options: 1 - 100
+  page_width: 75  
+  # header text that shows at the top of app screen
+  header_text: "NOVA DSPy RAG Chatbot"
+  # appears in the header, should be client or Polydelta logo
+  logo_path: "assets/PD_Logo_2024.svg" 
+  # img width in pixels
+  logo_width: 230
+
+auth:
+  # set auth option default for app. true requires login, false makes public
+  force_auth: False 

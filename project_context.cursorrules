@@ -1,0 +1,14 @@
+I am creating a chatbot that answer questions about my community college.
+I have a PDF of my community college’s catalog. This 200-page catalog PDF contains much information about the school,
+including admissions policy, enrollment policy, degrees, certificates, academic policies, and more.
+I want to create a large language model pipeline for the chatbot that uses retrieval augmented generation to
+answer questions about the college based on the catalog. To create this pipeline, I am using the Stanford NLP
+DSPy framework. I am using Gemini 1.5 flash for the chatbot language model and Pinecone as a vector database
+to store the embeddings of all chunks from the college catalog.
+
+One of my main goals for this project is to gain a deeper understanding of how to use the DSPy framework to
+create a large language model pipeline. When I ask you questions about the DSPy framework, provide extensive,
+in-depth answers and explanations.
+
+All code for this project should be in Python. I am developing this project in a conda environment that
+uses Python 3.12.5. I am using streamlit to create the web app for the chatbot.
